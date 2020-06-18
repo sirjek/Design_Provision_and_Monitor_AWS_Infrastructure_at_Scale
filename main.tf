@@ -1,8 +1,6 @@
 # TODO: Designate a cloud provider, region, and credentials
 
 provider "aws" {
-  access_key = var.access
-  secret_key = var.key
   region = var.region
 }
 
