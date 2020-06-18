@@ -12,13 +12,3 @@ variable "subnet_id" {
   type        = string
   description = "The subnet to associate the instance with"
 }
-
-variable "access" {
-  type        = string
-  description = "Access needed for AWS"
-}
-
-variable "key" {
-  type       = string
-  description = "secret key"
-}
